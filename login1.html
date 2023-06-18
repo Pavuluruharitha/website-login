@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+input[type=text],select,textarea{
+    width: 30%; 
+    padding: 5px;  
+    border: 1px solid #ccc; 
+    border-radius: 2px; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+input[type=submit] {
+    background-color:wheat;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 30px;
+    background-color: gray;
+    padding: 5px;
+    width:500px;
+    margin: auto;
+    margin-top: 15%;
+}
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/164/537/small/fingerprint-identity-sensor-data-protection-system-podium-hologram-blue-light-and-concept-free-vector.jpg);
+    background-size: cover;
+}
+</style>
+    <div class="container">
+        <form action="website.html">
+        <center>
+            <label for="username">Username</label>
+            <input type="text" id="uname" name="uname" placeholder="Enter the name">
+        </center>
+        <br>
+        <center>
+            <label for="password">password</label>
+           <input type="text" id="password" name="password" placeholder="Enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain atleast one number,one uppercase,lowercase letter,symbol,and atleast 8 or more characters" required>
+        </center>
+        <br>
+    </div>
+        <center>
+          <a href="#"><input type="submit" value="Login"></a>
+        </center>
+    </form>
+    <div id="message">
+        <h3>Password must contain the following:</h3>
+        <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+        <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+        <p id="number" class="invalid">A <b>number</b></p>
+        <p id="symbol" class="invalid">A <b>symbol</p></p>
+        <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+      </div>
+
+</body>
+</html>

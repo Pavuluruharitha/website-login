@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    margin-bottom: 25px;
+    background-image: linear-gradien(#CD1818,#CD1818);
+}
+ nav .logo p{
+    font-size: 17px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+nav .logo p:hover{
+    color: orange;
+    transition: all 0.4s ease 0s;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding:0px 30px;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: blue;
+    transition: all 0.4s ease 0s;
+
+}
+
+.content img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+#picture{
+    display:flex;
+    justify-content: space-evenly;
+}
+input[type=text], select, textarea {
+    width: 500; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  body{
+    background-image: url(https://img.freepik.com/premium-photo/yellow-plane-model-yellow-background-use-advertising-media_43780-1921.jpg?w=360);
+  }
+  body{
+    background-image: url("https://images.unsplash.com/photo-1516417156595-3ca5df62a3a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80");
+    background-size: cover;
+}
+#logo{
+   
+    text-align: right;
+
+}
+a{
+    text-decoration: none;
+    color:white ;
+    margin-left: 20px;
+}
+.content{
+    margin-top:0%;
+}
+.content h1{
+    font-size:70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom:25px;
+    margin: auto;
+    margin-top: 15%;
+    padding-right: 10px;
+}
+    body
+    {
+       
+        animation:change 4.3s ease infinite;
+    }
+    
+@keyframes change
+{
+    0%
+    {
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/526/938/453/tourism-fuji-aizuwakamatsu-fukushima-wallpaper-preview.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    25%
+    {
+        background-image: url(https://wallpapercave.com/dwp2x/wp8788320.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%
+    {
+        background-image: url(https://e0.pxfuel.com/wallpapers/439/797/desktop-wallpaper-arashiyama-bamboo-forest-kyoto-japan-beautiful-nature-bamboo-forest-japan-beautiful-places-to-travel-bamboo-garden.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%
+    {
+        background-image: url(https://cdn.pixabay.com/photo/2013/04/13/18/42/tower-103417_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%
+    {
+        background-image: url(https://wallpaperaccess.com/full/2592094.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
